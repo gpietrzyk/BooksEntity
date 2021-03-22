@@ -75,7 +75,6 @@ public class BooksServiceTest {
                 .setPublisher(data[2])
                 .build();
 
-        book = BooksService.findBookByID(3);
         resultBook = BooksService.updateBook(3,UpdateData);
 
         assertEquals(bookAfterUpdate, resultBook);
